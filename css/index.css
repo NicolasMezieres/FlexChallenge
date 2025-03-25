@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: hsl(30, 38%, 92%);
 }
 h1 {
@@ -13,14 +18,10 @@ h1 {
 p {
   font-size: 14px;
 }
-button {
-  height: 40px;
-  border: none;
-}
+
 .sectionProduct {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -45,9 +46,7 @@ button {
 .alignSelfCenter {
   align-self: center;
 }
-.gap10 {
-  gap: 10px;
-}
+
 .weight500 {
   font-weight: 500;
 }

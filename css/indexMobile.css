@@ -4,6 +4,10 @@
     width: 320px;
     margin-top: 40px;
   }
+  button {
+    height: 40px;
+    border: none;
+  }
   .productDesktop {
     display: none;
   }
@@ -14,5 +18,12 @@
   }
   .sectionProduct {
     padding: 20px;
+    gap: 10px;
+  }
+  .gapButton {
+    gap: 10px;
+  }
+  .gapPrice {
+    gap: 20px;
   }
 }
