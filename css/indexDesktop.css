@@ -2,4 +2,12 @@
   body {
     background-color: lightblue;
   }
+  .productDesktop {
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .productMobile {
+    display: none;
+  }
 }

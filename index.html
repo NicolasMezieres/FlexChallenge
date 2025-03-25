@@ -10,18 +10,27 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main>
+    <main class="flex justifyCenter">
       <article class="flex">
-        <img src="images/image-product-desktop.jpg" alt="image's product" />
-        <section>
-          <p>PERFUME</p>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-          <p>
+        <img src="images/image-product-desktop.jpg" alt="image's product" class="productDesktop" />
+        <img src="images/image-product-mobile.jpg" alt="image's prdouct" class="productMobile" />
+        <section class="sectionProduct">
+          <p class="colorGrey familyMontserrat letterSpacing3">PERFUME</p>
+          <h1 class="familyFraunces fontSize32">Gabrielle Essence Eau De Parfum</h1>
+          <p class="familyFraunces colorGrey">
             A floral, solar and voluptuous interpretation composed by Olivier Polge,
             Perfumer-Creator for the House of CHANEL
           </p>
-          <p>$149.99<span>$169.99</span></p>
-          <button><img src="images/icon-cart.svg" alt="cart" />Add to Cart</button>
+          <p class="fontSize32 weight700 colorGreen500 familyFraunces flex gap10">
+            $149.99<span class="test fontSize14 colorGrey lineThrough alignSelfCenter"
+              >$169.99</span
+            >
+          </p>
+          <button
+            class="flex justifyCenter alignCenter gap10 familyMontserrat colorWhite backgroundGreen500 rounded10"
+          >
+            <img src="images/icon-cart.svg" alt="cart" />Add to Cart
+          </button>
         </section>
       </article>
     </main>

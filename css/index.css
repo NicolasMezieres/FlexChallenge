@@ -1,8 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+h1 {
+  font-size: 28px;
+}
+p {
+  font-size: 14px;
+}
+button {
+  height: 40px;
+  border: none;
+}
+.sectionProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
 .flex {
   display: flex;
+}
+.fontSize32 {
+  font-size: 32px;
+}
+.fontSize14 {
+  font-size: 14px;
+}
+.letterSpacing3 {
+  letter-spacing: 3px;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.alignCenter {
+  align-items: center;
+}
+.alignSelfCenter {
+  align-self: center;
+}
+.gap10 {
+  gap: 10px;
+}
+.weight500 {
+  font-weight: 500;
+}
+.weight700 {
+  font-weight: 700;
+}
+.colorGreen500 {
+  color: hsl(158, 36%, 37%);
+}
+.backgroundGreen500 {
+  background-color: hsl(158, 36%, 37%);
+}
+.colorGreen700 {
+  color: hsl(158, 42%, 18%);
+}
+
+.colorBlack {
+  color: hsl(212, 21%, 14%);
+}
+.colorGrey {
+  color: hsl(228, 12%, 48%);
+}
+.colorCream {
+  color: hsl(30, 38%, 92%);
+}
+.colorWhite {
+  color: hsl(0, 0%, 100%);
+}
+.familyMontserrat {
+  font-family: "Montserrat";
+}
+.familyFraunces {
+  font-family: "Fraunces";
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+.rounded10 {
+  border-radius: 10px;
 }

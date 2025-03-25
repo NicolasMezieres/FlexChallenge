@@ -1,0 +1,18 @@
+@media only screen and (max-width: 767px) {
+  article {
+    flex-direction: column;
+    width: 320px;
+    margin-top: 40px;
+  }
+  .productDesktop {
+    display: none;
+  }
+  .productMobile {
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .sectionProduct {
+    padding: 20px;
+  }
+}
